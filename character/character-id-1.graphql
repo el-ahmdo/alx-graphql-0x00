@@ -1,10 +1,10 @@
-query character{
-   character($id:1) {
-      id
-      name
-       status
+query character {
+  character(id: 1) {
+    id
+    name
+    status
     species
     gender
     type
-    }
+  }
 }

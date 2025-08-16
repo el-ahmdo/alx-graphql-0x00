@@ -1,4 +1,4 @@
-query character {
+query {
   character(id: 4) {
     id
     name
